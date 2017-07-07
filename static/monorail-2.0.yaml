@@ -211,9 +211,12 @@ definitions:
         type: object
       service:
         type: string
+      nodeId:
+        type: string
     required:
     - service
     - config
+    - nodeId
     type: object
   obm_led:
     properties:
